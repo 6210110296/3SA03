@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
-import WordCard from './WordCard';
+import React from 'react';
+import NumberCard from './NumberCard';
 import './App.css';
-const word = "hello"
 
 function App() {
   return (
     <div>
       {
-        <WordCard value="hello" />
+        <NumberCard value="20" />
       }
 
     </div>
