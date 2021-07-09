@@ -35,7 +35,7 @@ export default function NumberCard(props) {
             }
         } else {
             console.log("Reset")
-            setState({ ...state, guess: '', attempt: state.attempt + 1 })
+            setState({ ...state, guess: '', attempt: 0 })
         }
     }
 
